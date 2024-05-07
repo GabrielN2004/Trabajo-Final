@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.Contenedor-menu{
+    width: 100%;
+    height: 70px;
+    background: darkblue;
+    padding: 0px 20px;
+}
+
+.Barra-menu{
+    max-width: 1000px;
+    margin: auto;
+    height: 100%;
+}
+
+nav{
+    height: 100%;
+}
+
+nav > ul{
+    height: 100%;
+    display: flex;
+}
+
+nav > ul >li{
+    height: 100%;
+    list-style: none;
+    position: relative;
+}
+
+nav > ul > li > p{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+nav > ul > li > a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: all 300ms ease;
+}
+
+nav > ul > li > a:hover{
+    transform: scale(1.1);
+    background: blue;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/Static/img/contacto-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.menu{
+    width: 400px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.433);
+    border: 1px solid black;
+    border-radius: 7px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: darkblue;
+    margin-left: 800px;
+}
+
+.menu h3{
+    justify-content: center;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.contacto{
+    /*width: 100%;*/
+    padding: 2px;
+    border: 1px solid darkblue;
+    border-radius: 3px;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.menu-despegable{
+    border: 1px solid darkblue;
+    border-radius: 2px;
+    width: 150px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    color: darkblue;
+}
+
+.comentario{
+    width: 300px;
+    padding: 40px;
+    margin-top: 35px;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: 2px solid darkblue;
+}
+
+.envio{
+    background-color: darkgreen;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.envio:hover{
+    background-color: green;
+}
+
+.borro{
+    background-color: darkred;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.borro:hover{
+    background-color: red;
+}
+
+.titulo{
+    background: rgba(255, 255, 255, 0.433);
+    font-family: sans-serif;
+    font-size: 30px;
+    color: darkblue;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.mapa h3{
+    color: darkblue;
+    font-family: sans-serif;
+    font-size: 35px;
+    background: rgba(255, 255, 255, 0.433);
+    width: 400px;
+    padding: 10px;
+    margin-top: -690px;
+    margin-left: 80px;
+}
